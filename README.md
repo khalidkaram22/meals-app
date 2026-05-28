@@ -20,19 +20,21 @@ The app demonstrates clean architecture concepts, state management with BLoC/Cub
 
 This project uses a **feature-based architecture** with Cubit (BLoC pattern):
 
+<pre>
 lib/
 ├── core/
-│ ├── network/
-│ ├── database/
-│ ├── styles/
-│ └── widgets/
+│   ├── network/
+│   ├── database/
+│   ├── styles/
+│   └── widgets/
 │
 ├── features/
-│ ├── home_screen/
-│ ├── search_result_screen/
-│ ├── my_meals/
-│ ├── meal_details/
-│ └── add_meals_screen/
+│   ├── home_screen/
+│   ├── search_result_screen/
+│   ├── my_meals/
+│   ├── meal_details/
+│   └── add_meals_screen/
+</pre>
 
 
 ### State Management
@@ -104,19 +106,3 @@ Meals are stored locally using SQLite to allow offline access to saved meals.
 ## 👨‍💻 Developer
 
 Built by Khalid Karam as part of Flutter learning and portfolio development.
-
----
-
-## 📄 License
-
-This project is for educational purposes.
-```
-
----
-
-If you want next step, I can also:
-- :contentReference[oaicite:0]{index=0}
-- or :contentReference[oaicite:1]{index=1}
-- or :contentReference[oaicite:2]{index=2}
-
-Just tell me 👍
