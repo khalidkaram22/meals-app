@@ -1,16 +1,21 @@
-# meals_app
+# 🍽️ Meals App
 
-A new Flutter project.
+A Flutter application for browsing, searching, and saving meals using TheMealDB API.  
+The app demonstrates clean architecture concepts, state management with BLoC/Cubit, and local persistence using SQLite.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Search meals by name
+- 🍱 Browse meals by categories
+- 📖 View detailed meal information
+- ❤️ Add/remove favorite meals
+- 💾 Offline access using local SQLite database
+- 📱 Clean and responsive UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Architecture
+
+This project uses a **feature-based architecture** with Cubit (BLoC pattern):
